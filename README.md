@@ -1,7 +1,7 @@
-JavaScript Gulp Demo
+JavaScript Gulp Rollup Demo
 ====================
 
-Gulp是JavaScript中一个构建工具，特点是通过pipe将各功能串起来，不像Grunt那样是基于配置。
+使用rollup插件时注意，它的output.file实际上没什么用，必须用rollup-rename来重命名为期望的filename
 
 ```
 npm install
